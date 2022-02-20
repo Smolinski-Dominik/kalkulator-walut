@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kalkulator walut</title>
+    <link href="CSS/body.css" rel="stylesheet">
+    <script defer src="js/script.js"></script>
+
+</head>
+
+<body class="body">
+    <div class="backgroung__image">
+        <section class="section">
+            <p>
+            <h1 class="section__head">Kalkulator walut</h1>
+            </p>
+            <h3 class="section__head--two">Wymienisz złotówki na zagraniczne waluty</h3>
+        </section>
+        <form class="js-form">
+            <fieldset class="fieldset">
+                <p>
+                    <label>
+                        Kwota w PLN*: <input  placeholder="Wpisz kwotę w zł" class="js-sum" required type="number" min="1" step="any">
+                    </label>
+                </p>
+                <p>
+                    <label>
+                        Wybierz walutę:
+                        <select class="js-currency">
+                            <option value="EUR">Euro</option>
+                            <option value="USD">Dolar amerykański</option>
+                            <option value="CHF">Frank szwajcarski</option>
+                            <option value="GBP">Funt brytyjski</option>
+                        </select>
+                    </label>
+                </p>
+                <p class="form__button">
+                    <button type="submit">Przelicz</button>
+                </p>
+                <p>
+                    Wynik: <strong class="js-result">00.00</strong>
+                </p>
+            </fieldset>
+        </form>
+    </div>
+</body>
+
+</html>
