@@ -9,7 +9,7 @@ html {
 .body {
     max-width: 700px;
     margin: 0 auto;
-    border: 1px solid #ccc;
+    border: 1px solid rgb(116, 113, 113);
     padding: 10px;
     width: 100%;
     max-width: 700px;
@@ -42,11 +42,12 @@ html {
 }
 
 .fieldset {
-    width
+    border: 0px solid rgb(95, 94, 94);
+    border-radius: 5px;
 }
 
 .fieldset__label.fieldset__label {
-    border: 1px solid #ccc;
+    border: 0px solid #ccc;
     padding: 10px;
     width: 100%;
     max-width: 400px;
